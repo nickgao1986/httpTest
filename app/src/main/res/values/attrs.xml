@@ -1,0 +1,61 @@
+<resources>
+
+    <declare-styleable name="ExpandableEditText">
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextStyle1" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="itemTextStyle" format="string"/>
+        <attr name="itemTextSize" format="dimension"/>
+        <attr name="itemTextColor" format="color"/>
+    </declare-styleable>
+
+    <!--体温管理趋势图-->
+    <declare-styleable name="TemperatureTrendChartView">
+        <attr name="tempTitleTextColor" format="color"/>
+        <attr name="tempTitleTextSize" format="dimension"/>
+        <attr name="tempTitlePadding" format="dimension"/>
+        <attr name="tempScaleTextColor" format="color"/>
+        <attr name="tempScaleTextSize" format="dimension"/>
+        <attr name="dateScaleTextColor" format="color"/>
+        <attr name="dateScaleTextSize" format="dimension"/>
+        <attr name="dataScaleTextColor" format="color"/>
+        <attr name="frameLineColor" format="color"/>
+    </declare-styleable>
+
+    <attr name="MusicalKey" format="color"/>
+
+    <declare-styleable name="CardLayer">
+        <attr name="cardShadowLeft" format="dimension"/>
+        <attr name="cardShadowTop" format="dimension"/>
+        <attr name="cardShadowRight" format="dimension"/>
+        <attr name="cardShadowBottom" format="dimension"/>
+        <attr name="cardRadius" format="dimension"/>
+        <attr name="shadow_transparency" format="integer"/>
+        <attr name="hasTitle" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="shadowColor" format="color"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="shadowWidth" format="dimension"/>
+        <attr name="shadowDx" format="dimension"/>
+        <attr name="shadowDy" format="dimension"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="shadowSide">
+            <flag name="all" value="0x1111"/>
+            <flag name="left" value="0x0001"/>
+            <flag name="top" value="0x0010"/>
+            <flag name="right" value="0x0100"/>
+            <flag name="bottom" value="0x1000"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedCornerImageViewStyle">
+        <attr name="corner_radius" format="integer" />
+        <attr name="image_size" format="dimension" />
+        <attr name="default_image" format="reference" />
+        <attr name="border_width" format="dimension|integer" />
+    </declare-styleable>
+
+</resources>
